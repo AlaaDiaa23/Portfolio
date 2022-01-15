@@ -1,0 +1,303 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+
+header {
+    display: flex;
+    background-color: rgb(81, 36, 122);
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
+}
+
+header a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.932);
+    font-size: 1.8em;
+    font-weight: 700;
+    text-transform: uppercase;
+
+}
+
+.navgation a {
+
+    font-size: 1.4em;
+    font-weight: 400;
+    padding-left: 30px;
+
+}
+
+.navgation a:hover {
+    color: rgb(184, 158, 209);
+}
+
+section {
+    padding: 100px 200px;
+}
+
+.main {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url(/images/backgnd.jpg) no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.main-cont h3 {
+    color: white;
+    font-size: 1.4em;
+    font-weight: 500;
+
+}
+
+.main-cont h3 span {
+    display: inline-block;
+    margin-top: 10px;
+    color: rgb(98, 66, 128);
+    font-size: 3em;
+    font-weight: 600;
+}
+
+.main-cont h2 {
+    color: white;
+    font-size: 2em;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    margin-bottom: 3px;
+}
+
+.btn-view {
+    text-decoration: none;
+    color: white;
+    background-color: rgb(98, 66, 128);
+    border-radius: 15px;
+    font-size: 1.1em;
+    font-weight: 600;
+    display: inline-block;
+    padding: 0.9375em 2.1875em;
+    margin-bottom: 40px;
+    transition: 0.7s ease;
+}
+
+.btn-view:hover {
+    background-color: rgb(40, 3, 75);
+    transform: scale(1.1);
+}
+
+.social a {
+    color: white;
+    font-size: 1.7em;
+    padding-right: 30px;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    color: rgb(157, 78, 231);
+    font-size: 2.2em;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.carditem {
+    width: 21.25em;
+    box-shadow: 0 5px 25px rgba(184, 158, 209);
+    padding: 25px;
+    margin: 15px;
+    background-color: white;
+    border-radius: 5px;
+    transition: 0.7s ease;
+}
+
+.carditem:hover {
+    transform: scale(1.1);
+}
+
+.info {
+    text-align: center;
+}
+
+.info h3 {
+    color: rgb(157, 78, 231);
+    font-size: 1.2em;
+    font-weight: 700;
+    margin: 10px;
+}
+
+.icon {
+    color: rgb(157, 78, 231);
+    font-size: 8em;
+    font-weight: 400;
+    text-align: center;
+}
+
+.Projects {
+    background-color: rgb(19, 1, 24);
+}
+
+.Projects .content {
+
+    margin: 30px;
+}
+
+.pro-card {
+    width: 20em;
+    min-height: 14px;
+    border: 2px solid white;
+    margin: 20px;
+    overflow: hidden;
+    border-radius: 3px;
+    transition: 0.7s ease;
+
+}
+
+.pro-card:hover {
+    transform: scale(1.1);
+
+}
+
+.pro-img img {
+    width: 100%;
+}
+
+.pro-card:hover .pro-img {
+    opacity: 0.9;
+}
+
+.pro-info {
+    padding: 1em;
+
+}
+
+.pro-info p {
+    color: white;
+    font-weight: 400;
+    font-size: 0.8em;
+
+
+}
+
+.pro-title {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 800;
+    margin-top: 10px;
+}
+
+.pro-title span {
+    color: white;
+    font-weight: 900;
+}
+
+.pro-title a {
+    text-decoration: none;
+    color: white;
+}
+
+.pro-title a:hover {
+    color: rgb(163, 113, 209);
+}
+
+
+
+.Contact i {
+
+    font-size: 0.8em;
+
+}
+
+.footer {
+    background-color: rgb(19, 1, 24);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 2em;
+}
+
+.footer-title {
+    font-size: 1.3em;
+    font-weight: 600;
+}
+
+.footer-title span {
+    color: #8123ec;
+}
+
+.footer .social a {
+    font-size: 1.3em;
+
+}
+
+@media (max-width:1023px) {
+    header {
+        padding: 12px 20px;
+    }
+
+    .navgation a {
+        padding-left: 10px;
+    }
+
+    .title {
+        font-size: 1.8em;
+    }
+
+    section {
+        padding: 80px 20px;
+    }
+
+    .main-cont h2 {
+        font-size: 1em;
+    }
+
+    .main-cont h3 {
+        font-size: 1.6em;
+    }
+
+    .content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
+
+@media (max-width:641px) {
+    body {
+        font-size: 12px;
+    }
+
+    .main-cont h2 {
+        font-size: 0.8em;
+    }
+
+    .main-cont h3 {
+        font-size: 1.4em;
+    }
+}
+
+@media (max-width:300px) {
+    body {
+        font-size: 10px;
+
+    }
+}
